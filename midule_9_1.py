@@ -29,7 +29,7 @@ print(apply_all_func([6, 20, 15, 9], zip, type))
 
 print(apply_all_func([-11, 206, 95, 1856, 65], max, min))
 print(apply_all_func([-11, 206, 95, 1856, 65], len, sum, sorted))
-print(apply_all_func([-11, 206, 95, 1856, 65], zip, type))
+print(apply_all_func([-11, 206, 95, 1856, 65], zip, callable, type))
 
 
 

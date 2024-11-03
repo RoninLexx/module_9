@@ -6,11 +6,16 @@ second = 'Рамена мало было'
 lambda_func = list(map(lambda x, y: x == y, first, second))
 print(lambda_func)
 
+third = 'Мама мыла раму'
+fourth = 'А Рама краснела от сраму'
+
+lambda_func = list(map(lambda x, y: x == y, third, fourth))
+print(lambda_func)
 
 def get_advanced_writer(file_name):
     def write_everything(*data_set):
         with open(file_name, 'a', encoding='utf-8') as file:
-            f_w = [file.write(str(f) + '\n') for f in data_set]
+            return [file.write(str(f) + '\n') for f in data_set]
 
     return write_everything
 
@@ -35,3 +40,5 @@ print(first_ball())
 print(first_ball())
 print(first_ball())
 print(first_ball())
+
+# походу что то получилось

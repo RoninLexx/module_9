@@ -9,3 +9,5 @@ second_result = (len(f) == len(s) for f in first for s in second if first.index(
 
 print(list(first_result))
 print(list(second_result))
+
+# вроде как то так
